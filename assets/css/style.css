@@ -17,22 +17,32 @@ header img {
 
 h2 {
     color: black;
+    /* border-right: black 5px solid; */
+    /* padding-right: 50px; */
+    font-size: xx-large;
 }
 
-.projects div {
+
+
+.section2 .images {
     display: flex;
     flex-wrap: wrap;
+    height: fit-content;
+    flex-grow: inherit;
+    margin-right: 20px;
 }
 
+
 .image img {
-    width: 300px;
-    height: 220px;
-    border: 5px;
-    border-style: solid;
-    border-color: rgb(89, 99, 96);
+    max-width: 97%;
+    height: auto;
+    border: 5px solid rgb(89, 99, 96);
     opacity: 0.7;
     flex-wrap: wrap;
+    border-radius: 15px;
 }
+
+
 
 .image img:hover {
     opacity: 1;
@@ -98,38 +108,48 @@ header nav ul li a {
     display: flex;
 }
 
-.text {
-    width: 75%;
-    height: 230px;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
+.section2 {
     display: flex;
 }
 
+.text {
+    width: 75%;
+    height: 230px;
+    /* margin: 0; */
+    margin: 0 80px 0 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-size: 1.75vw;
+}
+
 .about-me {
-    background-color:lightgrey;
     height: 230px;
     width: 25%;
-    margin: 0;
-    align-items: center;
+    margin: 20px 130px;
+    border-right: 5px solid black;
     justify-content: center;
     display: flex;
 }
 
 .projects {
-    background-color: lightgrey;
-    height: 230px;
+    max-height: 100%;
     width: 25%;
-    margin: 0;
-    align-items: center;
+    margin: 10px 100px;
     justify-content: center;
     display: flex;
+    border-right: 5px black solid;
 }
 
-.section2 {
-    display: flex;
+.images {
+    width: 75%;
 }
+
+.image {
+    margin: auto;
+}
+
 
 
 /* END SECTION */
@@ -173,5 +193,3 @@ footer ul li a {
     justify-content: space-between;
     margin: 0 20px;
 }
-
-
