@@ -1,42 +1,65 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+header img {
+    border-radius: 200px;
+    height: 100px;
+    margin-right: 20px;
+    border: 3px solid whitesmoke;
+    
+}
+
+#contact-me {
+    color: whitesmoke;
+}
+
+h2 {
+    color: black;
+}
+
+.projects div {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .image img {
     width: 300px;
+    height: 220px;
     border: 5px;
     border-style: solid;
     border-color: rgb(89, 99, 96);
     opacity: 0.7;
+    flex-wrap: wrap;
 }
 
 .image img:hover {
     opacity: 1;
 }
 
-#projects {
-    display: flex;
-}
-
 /* START HEADER */
 header {
       padding: 20px 35px;
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
       position: -webkit-sticky;
       position: sticky;
       top: 0;
-}
+      background-color: black;
+      z-index: 9999;
+      align-items: center;
+    }
 
 header h1 {
+    margin-right: auto;
     font-weight: bold;
     font-size: 40px;
-    margin: 0;
 }
 
 header a {
     text-decoration: none;
+    color: white;
 }
 
 header a:hover {
@@ -44,6 +67,7 @@ header a:hover {
 }
 
 header nav {
+    flex-wrap: wrap;
     margin: 7px 0;
 }
 
@@ -63,5 +87,91 @@ header nav ul li a {
 
 /* END HEADER */
 
+/* START SECTION */
+
+.main {
+    display: flex;
+}
+
+
+.section1 {
+    display: flex;
+}
+
+.text {
+    width: 75%;
+    height: 230px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about-me {
+    background-color:lightgrey;
+    height: 230px;
+    width: 25%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.projects {
+    background-color: lightgrey;
+    height: 230px;
+    width: 25%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section2 {
+    display: flex;
+}
+
+
+/* END SECTION */
+
 /* START FOOTER */
+
+footer {
+    background-color: black;
+    display: flex;
+}
+
+footer h2 {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer div {
+   margin: 0 auto;
+}
+
+footer ul {
+    align-items: center;
+    margin-top: 25px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline;
+    width: auto;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    display: inline;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
 
