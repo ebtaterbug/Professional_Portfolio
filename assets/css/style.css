@@ -193,3 +193,145 @@ footer ul li a {
     justify-content: space-between;
     margin: 0 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header img {
+        margin: 0;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header a {
+        margin: 0;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        display: inline;
+    }
+
+    
+    header nav ul li a {
+        font-size: 20px;
+        margin: 0;
+        padding: 15px;
+        padding: 5px;
+        display: inline;
+    }
+
+    /*End Header*/
+
+    /* About Me */
+
+    .section1 {
+        justify-content: center;
+        position: relative;
+        padding-bottom: 0;
+        flex-wrap: wrap;
+    }
+
+    .about-me {
+        border: none;
+    }
+
+    h2 {
+        min-width: 300px;
+        justify-content: center;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .text {
+        border-top: 5px solid black;
+        margin: 0;
+        display: inline;
+    }
+
+    p {
+        font-size: large;
+    }
+
+    /* End About Me */
+
+    /* Start Projects */
+
+    .section2 {
+        justify-content: center;
+        position: relative;
+        padding-bottom: 0;
+        flex-wrap: wrap;
+    }
+
+    .projects {
+        min-width: 200px;
+    }
+
+    .section2 .images {
+        margin-right: 0;
+    }
+
+    .projects {
+        border-bottom: 5px solid black;
+        border-right: none;
+        min-width: 400px;
+        margin: 45px;
+    }
+
+    .projects h2 {
+        margin: 0;
+    }
+
+    #run-buddy {
+        margin-top: 75px;
+    }
+
+    /* End Projects */
+
+    /*Start Header*/
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer h1 {
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    #contact-me {
+        margin: 30px 0 15px 0;
+    }
+
+    footer ul li {
+        display: table;
+    }
+
+    footer ul li a {
+        padding: 5px;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+
+    footer div {
+        margin-bottom: 30px;
+    }
+}
