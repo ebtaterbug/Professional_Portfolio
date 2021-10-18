@@ -6,4 +6,4 @@ The following page is the initial development of my portfolio site. Contained in
 ## Website URL
 https://ebtaterbug.github.io/Professional_Portfolio/
 
-![](assets\images\Ian_Joseph_Portfolio.PNG)
+![](assets/images/Ian_Joseph_Portfolio.PNG)
