@@ -46,6 +46,19 @@ h2 {
     opacity: 1;
 }
 
+.image-flex img {
+    width: 90%;
+    height: 90%;
+    border: 5px solid rgb(89, 99, 96);
+    opacity: 0.7;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.image-flex img:hover {
+    opacity: 1;
+}
+
 /* START HEADER */
 header {
       padding: 20px 35px;
@@ -145,10 +158,17 @@ header nav ul li a {
     width: 75%;
 }
 
-.image {
-    margin: auto;
+.flex {
+    display: flex;
 }
 
+.image {
+    margin: 5px;
+}
+
+.image-flex {
+    width: 25%;
+}
 
 
 /* END SECTION */
@@ -286,8 +306,9 @@ footer ul li a {
     .projects {
         border-bottom: 5px solid black;
         border-right: none;
-        min-width: 400px;
+        width: 75%;
         margin: 45px;
+        padding-bottom: 50px;
     }
 
     .projects h2 {
